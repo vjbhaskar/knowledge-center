@@ -54,6 +54,7 @@ Please note: the following scenarios do not start a new skill-segment:
 
 * Back-to-Queue - returning a conversation to the same skill-queue
 * Takeover - agent manager taking over a conversation from his agents becomes the assigned agent of the conversation but the conversation remains assigned to the same skill.
+  ![](/img/Messaging_segments1-1.png)
 
 ## Metrics
 
@@ -163,13 +164,15 @@ Please note:
 * Joined agent\\reader leaving a conversation does not end an agent-segment.
 * Time in Queue is not ‘owned’ by any agent, therefore is not be part of any agent-segment.
 
+![](/img/Mess_segments2.png)
+
 ## Metrics
 
 **Manager Question:** How many times were conversations assigned to each agent, human or bot?
 
 **Answer (Metric):** Agent Segments
 
-**Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations. 
+**Action:** By understanding the number of conversations, managers can ensure agents are taking the optimal number of conversations.
 
 This metric will be a more precise version of CCPLH.
 
@@ -189,19 +192,19 @@ This metric will be a more precise version of CCPLH.
 
 **Answer (Metric):** Segments with Non Responsive Agents (Agent)
 
-**Action:**This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
+\**Action:**This can showcase situations where agents are assigned to conversation but aren’t taking any actions on it. Is there a problem with the routing? Or is the agent refusing to deal with specific cases?
 
-**Manager Question:**How many times did each agent conduct a dialog with consumers?
+\**Manager Question:**How many times did each agent conduct a dialog with consumers?
 
 **Answer (Metric):** Interactive Segments (Agent) , Interactive Segments Rate (Agent)
 
 **Action:** More accurate view of actual number of engagements conducted by agents.
 
-**Manager Question:** How long are agents participating in conversations? 
+**Manager Question:** How long are agents participating in conversations?
 
 **Answer (Metric):** Avg. Segment Duration (Agent)
 
-**Action:**This can help to quantify the agents’ activity during conversation.
+\**Action:**This can help to quantify the agents’ activity during conversation.
 
 **Manager Question:** How many responses my agents send in an average conversation?
 
@@ -239,3 +242,29 @@ Agent-segment metrics can be sliced and diced by:
 * Messages provided by the Controller Bot (system messages) are omitted from the calculations.
 * In case of resumed conversations - the first message sent by the agent after resuming a conversation is not included in the averages
 * Takeovers - the first message sent by the manager after taking over a conversation is not included in the averages.
+
+## Metric definitions
+
+Following are the explanations of the metrics defined per segment (relevant for both agent and skill segments):
+
+### Interactive Segments
+
+The number of segments which included at least one response from the consumer to an agent’s message.
+
+### ![](/img/Mess_segments3.png)
+
+### Abandoned Segments
+
+The number of conversations closed by a consumer which included no agent message. Measured during the last segment of the conversation, and is unaffected by the agent activity from previous segments. Attributed to the last agent\\skill assigned to the conversation.
+
+![](/img/abandoned segments.png)
+
+### Segments with Non Responsive Agents
+
+The number of segments which ended in a transfer or closed by agent\\system with no message from an agent.
+
+![](/img/non_responsive_agents.png)
+
+**Segments with Non Responsive Consumers**
+
+The number of closed conversations which included no consumer response to an agent's message. Measured during the last agent-segment of the conversation.
