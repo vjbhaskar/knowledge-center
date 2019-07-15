@@ -13,7 +13,7 @@ date: 2019-02-26 10:10:05 +0000
 ---
 ## Bot not responding to first message of conversation (for customer bots created with Node Agent SDK)
 
-When a consumer initiates a conversation, the conversation is assigned to the bot skill and assigned to the bot user. But on the back end the bot user doesn’t pick up the conversation and thus doesn’t respond to the conversation. The conversation stays in limbo in LiveEngage without responding.
+When a visitor initiates a conversation, the conversation is assigned to the bot skill and assigned to the bot user. But on the back end the bot user doesn’t pick up the conversation and thus doesn’t respond to the conversation. The conversation stays in limbo in LiveEngage without responding.
 
 When the consumer initiates the conversation we get the ExConversationChangeNotification but we do not get the messagingEventNotification that should follow. We use the messagingEventNotification to respond to the conversation.
 
