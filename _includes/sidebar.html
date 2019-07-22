@@ -99,7 +99,12 @@
         </ul>
         </li>
         {% else %}
+        {% if category.newContent %}
+        <span class="newContentSpan"><i class="fas fa-exclamation"></i>New content</span>
+        <li class="categoryfolder newContent">
+        {% else %}
         <li class="categoryfolder">
+        {% endif %}
           <div class="itemdetails canOpen">
           <img class="sidebarimage" src="/img/{{ category.image }}.svg" />
           <span>{{ category.categoryname }}</span>

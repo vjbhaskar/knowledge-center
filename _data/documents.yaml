@@ -120,6 +120,7 @@
         - pagename: Outbound campaigns
 
 - categoryname: "Agent & manager workspace"
+  newContent: true
   image: agent-manager
   subcategories:
     - subcategoryname: Agent tools for messaging
@@ -215,7 +216,7 @@
     - subcategoryname: Analytics
       pages:
         - pagename: "Advanced messaging dashboard user guide"
-        - pagename: "Data Transporter user guide"        
+        - pagename: "Data Transporter user guide"
 - categoryname: "Admin & settings"
   image: admin-settings
   subcategories:
