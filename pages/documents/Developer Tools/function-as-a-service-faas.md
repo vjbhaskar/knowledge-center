@@ -13,6 +13,9 @@ redirect_from:
   - developer-tools-function-as-a-service-(faas).html
 
 ---
+{: .notice}
+This page contains an overview of LivePerson Functions and their benefits. For more in-depth, technical documentation about working with LivePerson Functions, please see our [Developers' Community](https://developers.liveperson.com/liveperson-functions-overview.html).
+
 LivePerson’s open platform new initiative, offers “[Functions](https://faas.liveperson.net)” - a Function as a Service (FaaS) platform that lets brands develop custom behaviors within the LivePerson platform to better tailor the conversational platform to their needs. This allows brands to:
 
 ### Rapidly build, test and deploy new conversational experiences
