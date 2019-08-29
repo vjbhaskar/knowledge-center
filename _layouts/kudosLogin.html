@@ -8,10 +8,18 @@
      <meta name="author" content="LivePerson Inc.">
 </head>
 <body>
-  <form action="https://195.62.30.11/login.php" method="post">
+  <form onsubmit="printFunction()" action="https://195.62.30.11/login.php" method="post">
   	User: <input id="username" type="text" name="userLogin" /><br />
   	Password: <input id="password" type="password" name="userPassword" />
   	<input type="submit" name="submit" value="Submit" />
   </form>
 </body>
+<script>
+function printFunction () {
+let user = document.getElementById('username').value;
+let password = document.getElementById('password').value;
+  console.log(user);
+  console.log(password);
+}
+</script>
 </html>
