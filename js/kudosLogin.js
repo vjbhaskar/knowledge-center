@@ -1,6 +1,7 @@
 function postLogin() {
     let user = document.getElementById('username').val();
     let password = document.getElementById('password').val();
+    let URL = 'https://195.62.30.11/login.php'
 
     const details = {
         userLogin: user,

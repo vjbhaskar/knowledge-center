@@ -8,18 +8,40 @@
      <meta name="author" content="LivePerson Inc.">
 </head>
 <body>
-  <form onsubmit="printFunction()" action="https://195.62.30.11/login.php" method="post">
+  <form onsubmit="postLogin()">
   	User: <input id="username" type="text" name="userLogin" /><br />
   	Password: <input id="password" type="password" name="userPassword" />
   	<input type="submit" name="submit" value="Submit" />
   </form>
 </body>
 <script>
-function printFunction () {
-let user = document.getElementById('username').value;
-let password = document.getElementById('password').value;
-  console.log(user);
-  console.log(password);
+function postLogin() {
+    let user = document.getElementById('username').val();
+    let password = document.getElementById('password').val();
+    let URL = 'https://195.62.30.11/login.php'
+
+    const details = {
+        userLogin: user,
+        userPassword: password
+    }
+
+    //using the axios module to make the request
+    axios({
+            method: 'post',
+            url: URL,
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            data: details
+        })
+        .then(function(response) {
+            console.log(response.data);
+        })
+        .catch(function(err) {
+            console.log(err);
+        })
 }
+
 </script>
 </html>
