@@ -8,7 +8,8 @@ h1 {
   font-weight: 500;
   color: #5879da;
   text-align: center;
-  width: 30%;
+  width: 430px;
+  height: 100px;
 }
 
 .kudosWrapper {
@@ -18,35 +19,31 @@ h1 {
   margin-top: 100px;
 }
 
-/* this class controls the overall window properties when it's maximized */
-.lp_desktop .lp-window-root >.lpc_window_maximized {
+.lpc_desktop.lpc_window_maximized {
   height: 500px !important;
   width: 600px !important;
-  position: absolute;
-  top: 50%;
+  position: absolute !important;
+  top: 50% !important;
   left: 50% !important;
-  margin-left: -300px;
-  margin-top: -250px;
+  margin-left: -300px !important;
+  margin-top: -250px !important;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2) !important;
   border: 0 solid #d6d6d6 !important;
 }
-
-/* this class controls the header strip at the bottom of the window*/
-.lp_header.lpc_maximized-header.lpc_desktop {
+/* this class controls the header strip at the top of the window*/
+.lpc_maximized-header.lpc_desktop {
   background-color: #16144A !important;
-  display: none;
+  /* display: none; */
 }
-
 /* this class controls the actual image displayed at the top of the chat window
 hide it or set its src property to customize the image*/
-img.lp_image.lpc_hero-image-area__image.lpc_hero-image-area__image_maximized.lpc_desktop {
+.lpc_hero-image-area__image {
   display:none;
 }
-
 /* this class controls the image container at the top of the chat window,
 you can use it to add your own background image if you hide the class above this one */
-.lp-window-root .lp_maximized_large .lp_location_center .lpc_hero-image-area__image-wrapper {
-    background: no-repeat center url(https://knowledge.liveperson.com/img/open-casey-header.svg);
-    background-size: contain;
-    height: 80px;
+.lpc_hero-image-area__image-wrapper {
+    background: no-repeat center url(https://knowledge.liveperson.com/img/open-casey-header.svg) !important;
+    background-size: contain !important;
+    height: 80px !important;
 }
