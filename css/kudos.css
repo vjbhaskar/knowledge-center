@@ -2,11 +2,15 @@
   font-family: "Roboto", "Open Sans", Helvetica;
 }
 
+body {
+  background-color: #162036;
+}
+
 h1 {
   font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: #5879da;
+  color: #fff;
   text-align: center;
   width: 430px;
   height: 100px;
@@ -31,10 +35,31 @@ h1 {
   border: 0 solid #d6d6d6 !important;
 }
 /* this class controls the header strip at the top of the window*/
-.lpc_maximized-header.lpc_desktop {
-  background-color: #16144A !important;
+.lpc_maximized-header {
+  background-color: #CAE5FF !important;
+  cursor: default !important;
+  border-color: #fff !important;
   /* display: none; */
 }
+
+.lpc_maximized-header__text {
+  color: #211103 !important;
+}
+
+/* this class control the close button on the top right corner of the window*/
+.lpc_maximized-header__close-button {
+  display: none !important;
+  cursor: default !important;
+}
+
+
+/* this class control the minimize button on the top right corner of the window*/
+.lpc_maximized-header__minimize-button {
+  display: none !important;
+  cursor: default !important;
+}
+
+
 /* this class controls the actual image displayed at the top of the chat window
 hide it or set its src property to customize the image*/
 .lpc_hero-image-area__image {
@@ -43,7 +68,38 @@ hide it or set its src property to customize the image*/
 /* this class controls the image container at the top of the chat window,
 you can use it to add your own background image if you hide the class above this one */
 .lpc_hero-image-area__image-wrapper {
-    background: no-repeat center url(https://knowledge.liveperson.com/img/open-casey-header.svg) !important;
+    /* background: no-repeat center url(https://knowledge.liveperson.com/img/open-casey-header.svg) !important;
     background-size: contain !important;
-    height: 80px !important;
+    height: 80px !important; */
+    display: none !important;
+}
+
+.lpc_composer_maximized {
+  background-color: #3066BE !important;
+}
+
+.lpc_composer_maximized .lp_bottom_area {
+  background-color: inherit !important;
+}
+
+.lpc_composer__menu-button-asset {
+  display: none !important;
+  color: #8A817C !important;
+}
+
+.lpc_composer__text-area {
+  color: #BCB8B1 !important;
+}
+
+.lpc_composer__text-area:focus {
+  outline: none !important;
+}
+
+.lpc_composer__send-button-asset {
+  display: none !important;
+}
+
+.lpc_composer__send-button {
+  background: center url(https://www.liveperson.com/sites/default/files/conv_page/send.png) !important;
+  background-size: cover !important;
 }
