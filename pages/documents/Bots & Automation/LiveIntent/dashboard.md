@@ -16,11 +16,11 @@ This document will explain all of the various aspects of the LiveIntent dashboar
 
 All tables in the dashboards can be sorted by clicking on any of the headers.
 
-## LiveIntent Settings 
+## Settings 
 
 After login to LiveIntent, click the menu icon in the top right corner and from there click "LiveIntent Settings" - on the following page you may choose the number of maximum intents to display and then select Save. Use the same menu to navigate back to "LiveIntent Analytics" dashboard.
 
-<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_20.png"><img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_21.png">
+<img  class="fancyimage" style="width:450px" src="img/liveintent_howto_image_20.png"><img  class="fancyimage" style="width:450px" src="img/liveintent_howto_image_21.png">
 
 ## Autorefresh
 
