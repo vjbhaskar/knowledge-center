@@ -20,7 +20,7 @@ All tables in the dashboards can be sorted by clicking on any of the headers.
 
 After login to LiveIntent, click the menu icon in the top right corner and from there click "LiveIntent Settings" - on the following page you may choose the number of maximum intents to display and then select Save. Use the same menu to navigate back to "LiveIntent Analytics" dashboard.
 
-<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_20"><img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_21">
+<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_20.png"><img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_21.png">
 
 ## Autorefresh
 
@@ -122,7 +122,7 @@ The transcript data can be useful for determining improvements in training phras
 
 You can use the dashboard data for building better intents or  determining improvements in training phrases. You can export the conversations as a CSV file  and use these to import into your Intent Builder domain. Click on the 3 dots and then on the "Export table to CSV". The CSV will be downloaded.
 
-<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_19">
+<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_19.png">
 
 <!--
 ### Glossary
