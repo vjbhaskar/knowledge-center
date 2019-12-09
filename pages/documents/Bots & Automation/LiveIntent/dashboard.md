@@ -16,6 +16,12 @@ This document will explain all of the various aspects of the LiveIntent dashboar
 
 All tables in the dashboards can be sorted by clicking on any of the headers.
 
+## LiveIntent Settings 
+
+After login to LiveIntent, click the menu icon in the top right corner and from there click "LiveIntent Settings" - on the following page you may choose the number of maximum intents to display and then select Save. Use the same menu to navigate back to "LiveIntent Analytics" dashboard.
+
+<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_20"><img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_21">
+
 ## Autorefresh
 
 The autorefresh setting allows you to set how often the dashboard refreshes. Setting it to the lowest time of 15 seconds will give you a live view into your intents.
@@ -111,6 +117,12 @@ Clicking on the Conversation ID, filters the dashboard via the [search bar](#sea
 This are is for exploring into specific instances of intent detection. The conversations displayed will be determined by the [filters](#filters) or [search](#search).
 
 The transcript data can be useful for determining improvements in training phrases.
+
+### Exporting conversations with intents
+
+You can use the dashboard data for building better intents or  determining improvements in training phrases. You can export the conversations as a CSV file  and use these to import into your Intent Builder domain. Click on the 3 dots and then on the "Export table to CSV". The CSV will be downloaded.
+
+<img  class="fancyimage" style="width:750px" src="img/liveintent_howto_image_19">
 
 <!--
 ### Glossary
