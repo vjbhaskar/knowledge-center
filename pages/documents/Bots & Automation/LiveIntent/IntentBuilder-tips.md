@@ -1,12 +1,14 @@
 ---
-pagename: LiveIntent tips
+pagename: IntentBuilder Tips
+redirect_from:
+  - ai-bots-automation-liveintent-liveintent-tips.html
 categoryName: Bots & automation
 subCategoryName: LiveIntent
 indicator: messaging
 subtitle: Tips and best practises for improving intents to help businesses optimize
   operations and enable data-driven automation programs
 level3: ''
-permalink: ai-bots-automation-liveintent-liveintent-tips.html
+permalink: ai-bots-automation-liveintent-intentbuilder-tips.html
 isTutorial: false
 isNew: false
 ---
