@@ -18,7 +18,7 @@ These applications provide many benefits by allowing account administrators to s
 
 ### Managing applications
 
-A new dedicated dashboard where you can manage LivePerson applications has been added to LiveEngage. This new dashboard allows administrators to manage all LivePerson applications on their account. In addition, this dashboard also allows the installation of new private applications, providing an easy to use UI for uploading and configuring new applications.
+As we focus on delivering self serve management capabilities to our customers, a new dedicated dashboard where you can manage LivePerson applications by yourself has been added to LiveEngage. This new dashboard allows administrators to manage all LivePerson applications on their account. When LivePerson adds a new application, it will appear on your dashboard for configuration, installation and management. In addition, this dashboard also allows the installation of new private applications by providing an easy to use UI for uploading and configuring them.
 
 For more information on how to use the new Applications dashboard, [please refer to the user guide](liveperson-applications-user-guide.html).
 
@@ -26,7 +26,9 @@ For more information on how to use the new Applications dashboard, [please refer
 
 ## Why should I use LivePerson Applications?
 
-LivePerson Applications enhance the use of LiveEngage and the entire LivePerson eco-system, enriching it with further capabilities. Since these capabilities are installed in a standard and pre-determined way, they are usable alongside other LivePerson services. This allows LivePerson to provide complete and out of the box, ready to use products. Further, the ability to develop and install private applications yourself, means that extending the LivePerson platform becomes self service and easy to do while still supporting industry standards for security and stability. If you're looking to add more powerful capabilities and services to the LivePerson platform, private applications are the way to go!
+LivePerson Applications enhance the capabilities of account administrators and allows them to easily manage applications which will enrich LivePerson eco-system with further capabilities. Since these capabilities are installed in a standard and pre-determined way, they are usable alongside other LivePerson services. This allows LivePerson to provide complete and out of the box, ready to use products. This allows admins to manage their applications, without the need to reach out to LivePerson support teams.
+
+Further, the ability to develop and install private applications yourself, means that extending the LivePerson platform becomes self service and easy to do while still supporting industry standards for security and stability. If you're looking to add more powerful capabilities and services to the LivePerson platform, private applications are the way to go!
 
 ## Global vs. private Applications
 
