@@ -5,7 +5,7 @@ subCategoryName: ''
 indicator: both
 subtitle:
 level3: ''
-permalink: liveperson-applications-overview.html
+permalink: admin-settings-liveperson-applications-overview.html
 isTutorial: false
 isNew: false
 ---
