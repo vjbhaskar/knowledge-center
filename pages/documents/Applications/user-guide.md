@@ -22,7 +22,7 @@ By hovering over an application's card, you will revel two buttons. The first, "
 
 The default tab is the "General" tab. Under this tab, you can find general information regarding the application including version, supported languages, the name of the developer who built the application, the application's name, icon, etc.
 
-[screenshot]
+![](img/appsUI4.png)
 
 Several of these fields are editable:
 
@@ -38,16 +38,14 @@ Several of these fields are editable:
 
 The second configuration tab is the "Information" tab. This tab includes an overview of the application, including more detailed information on how it works and what it does alongside screenshots of the application. All fields in this tab can only be edited by the application developer.
 
-[screenshot]
+![](img/appsUI5.png)
 
 The last tab is the "Configuration" tab. This tab includes the onboarding and configuration for this application. This tab changes between applications and is defined by the application's developer in case further configuration for the application is required (for example, permissions, specific features which need to be enabled, etc.) If the application requires no further configuration, this tab will not be displayed.
-
-[screenshot]
 
 ### Installing a private application
 
 When you navigate to the "Private applications" tab, you will see a list of all private applications you have installed on your account. In addition, you will see an extra block allowing you to install a private application.
 
-[screenshot]
+![](img/appsUI3.jpg)
 
 In order to install a private application, you will need to upload a valid JSON schema file. For more information on this schema, please see the Developers' Community. Once you click on this block, you will be prompted to upload the JSON file for your application. Once you do so, the private application will be installed.

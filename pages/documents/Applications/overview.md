@@ -12,7 +12,7 @@ isNew: false
 
 ## What are LivePerson Applications?
 
-A LivePerson application is a layer which wraps code intended to enhance LivePerson products. An application allows easy configuration, management, and integration of these enhanced capabilities and features with a LivePerson account. Applications are either developed by LivePerson ("Global applications") or by a non-LivePerson developer ("Private applications"). An application is created by uploading a predefined schema, which defines the application's scope, permissions, users and capabilities.
+A LivePerson application allows easy configuration, management, and integration of enhanced capabilities and features with a LivePerson account. Applications are either developed by LivePerson ("Global applications") or by a non-LivePerson developer ("Private applications").
 
 These applications provide many benefits by allowing account administrators to seamlessly navigate between many different applications so that the experience is of a connected ecosystem of business enhancements. The result is that users can work simultaneously in LiveEngage and many other applications (for example, an agent manager can both supervise on-going conversations and use the Report Builder at the same time).
 
