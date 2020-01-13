@@ -7,6 +7,7 @@ $(document).ready(function () {
 	mainBoxClick()
 	anchors.add('h2, h3');
 	populateAnchors();
+	dataFetcher();
 	mobileHamburger();
 	isExplorer();
 	setTimeout(function() {
@@ -528,4 +529,15 @@ if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 	setTimeout(function() {
 		removeMe();
 	}, 6000)
+}
+
+function dataFetcher () {
+	$.ajax({
+	 url: 'https://lp-marketplace-qa.dev.lprnd.net:443/doc/applications',
+	 method: 'GET',
+	 dataType: 'json',
+	 success: function (data) {
+	   console.log(data);
+	 }
+ });
 }
