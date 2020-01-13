@@ -22,7 +22,7 @@ As we focus on delivering self serve management capabilities to our customers, a
 
 For more information on how to use the new Applications dashboard, [please refer to the user guide](liveperson-applications-user-guide.html).
 
-![](img/appsUI2.jpg)
+![](img/LP-applications-2.png)
 
 ## Why should I use LivePerson Applications?
 
@@ -38,7 +38,9 @@ A **private application** is an application which a certain customer can develop
 
 Your account comes pre-configured with a certain amount of global applications which LivePerson have decided to pre-install on all accounts. However, there are other types of global applications that have not been pre-installed on your account but which are available to install by contacting your LivePerson account team.
 
-![](img/appsUI1.jpg)
+![](img/LP-applications-1.png)
+
+![](img/LP-applications-3.png)
 
 ## Building a private Application
 
