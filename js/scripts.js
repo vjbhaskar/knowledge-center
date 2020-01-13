@@ -555,7 +555,6 @@ function dataFetcher () {
 				 pageContent.appendChild(appContent);
 			 }
 		 })
-
 	 }
  });
 }
