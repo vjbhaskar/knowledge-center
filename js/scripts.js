@@ -5,9 +5,9 @@ $(document).ready(function () {
 	//initialize smooth scroll
 	var scroll = new SmoothScroll('a', {offset: 140});
 	mainBoxClick()
+	dataFetcher();
 	anchors.add('h2, h3');
 	populateAnchors();
-	dataFetcher();
 	mobileHamburger();
 	isExplorer();
 	setTimeout(function() {
@@ -533,11 +533,24 @@ if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 
 function dataFetcher () {
 	$.ajax({
-	 url: 'https://lp-marketplace-qa.dev.lprnd.net:443/doc/applications',
+	 url: 'https://va-a.marketplace.liveperson.net:443/doc/applications',
 	 method: 'GET',
 	 dataType: 'json',
 	 success: function (data) {
-	   console.log(data);
+		 let pageContent, appTitle, appContent;
+		 pageContent = document.getElementById('post-content');
+		 data.forEach(function (application, i) {
+			 console.log(application);
+			 if (application.display_name && application.description) {
+				 appTitle = document.createElement('h2');
+				 appContent = document.createElement('p');
+				 appTitle.innerHTML = (application.display_name);
+				 appContent.innerHTML = (application.description);
+				 pageContent.appendChild(appTitle);
+				 pageContent.appendChild(appContent);
+			 }
+		 })
+
 	 }
  });
 }
