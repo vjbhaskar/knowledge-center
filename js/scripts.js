@@ -5,9 +5,14 @@ $(document).ready(function () {
 	//initialize smooth scroll
 	var scroll = new SmoothScroll('a', {offset: 140});
 	mainBoxClick()
-	dataFetcher();
-	anchors.add('h2, h3');
-	populateAnchors();
+	if (url.indexOf('applications-list') > -1) {
+		dataFetcher();
+		setTimeout(function() {
+			populateAnchors();
+		}, 1000)
+	} else {
+			populateAnchors();
+	}
 	mobileHamburger();
 	isExplorer();
 	setTimeout(function() {
@@ -544,8 +549,8 @@ function dataFetcher () {
 			 if (application.display_name && application.description) {
 				 appTitle = document.createElement('h2');
 				 appContent = document.createElement('p');
-				 appTitle.innerHTML = (application.display_name);
-				 appContent.innerHTML = (application.description);
+				 appTitle.textContent = (application.display_name);
+				 appContent.textContent = (application.description);
 				 pageContent.appendChild(appTitle);
 				 pageContent.appendChild(appContent);
 			 }
