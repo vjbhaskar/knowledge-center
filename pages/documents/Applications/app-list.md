@@ -24,12 +24,6 @@ Provides conversations' sentiment rating (Meaningful Connection Score), showing 
 
 [MCS Toolkit overview](https://knowledge.liveperson.com/data-reporting-meaningful-connection-score-(mcs)-meaningful-connection-score-(mcs)-overview.html)
 
-### Intent Builder
-
-Build and manage your brand's intents and entities.
-
-[Intent Builder overview](https://developers.liveperson.com/intent-builder-overview.html)
-
 ### LiveIntent
 
 Setup real-time intent detection and create actionable intent-driven dashboards from intent configured in the intent builder.
