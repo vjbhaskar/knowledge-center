@@ -536,21 +536,29 @@ if (/Mobi|Android/i.test(navigator.userAgent) == true) {
 	}, 6000)
 }
 
+//a function to fetch a list of LP applications
 function dataFetcher () {
 	$.ajax({
+	//applications external API, standard ajax configuration
 	 url: 'https://va-a.marketplace.liveperson.net:443/doc/applications',
 	 method: 'GET',
 	 dataType: 'json',
 	 success: function (data) {
 		 let pageContent, appTitle, appContent;
+		 //grab the div into which the content will be printed
 		 pageContent = document.getElementById('post-content');
+		 //each item in the data array corresponds to an application
 		 data.forEach(function (application, i) {
 			 console.log(application);
+			 //if the app has a name and description
 			 if (application.display_name && application.description) {
+				 //create a title and a paragraph element
 				 appTitle = document.createElement('h2');
 				 appContent = document.createElement('p');
+				 //grab the app's display name and description
 				 appTitle.textContent = (application.display_name);
 				 appContent.textContent = (application.description);
+				 //populate the created elements with the name and the description
 				 pageContent.appendChild(appTitle);
 				 pageContent.appendChild(appContent);
 			 }
